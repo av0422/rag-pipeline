@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# FAISS index (built locally from your own PDF)
+faiss_index/
+
+# MLflow tracking data
+mlruns/
+mlflow.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sample/test PDFs
+*.pdf
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
